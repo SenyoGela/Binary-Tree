@@ -73,3 +73,6 @@ class BinarySearchTreeNode:
         for i in range(1,len(elements)):
             root.add_child(elements[i])
         return root
+
+if __name__ == '__main__':
+    my_name = ["G", "E", "L", "A", "M", "A", "R", "I", "C", "O", "N", "B", "S", "E", "N", "O"]
