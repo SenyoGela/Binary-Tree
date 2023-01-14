@@ -77,3 +77,11 @@ class BinarySearchTreeNode:
 if __name__ == '__main__':
     my_name = ["G", "E", "L", "A", "M", "A", "R", "I", "C", "O", "N", "B", "S", "E", "N", "O"]
     my_name_tree = build_tree(my_name)
+
+    print("Input letters:", my_name)
+    print("Min:", my_name_tree.find_min())
+    print("Max:", my_name_tree.find_max())
+    print("In Order Traversal:", my_name_tree.in_order_traversal())
+    print("Pre Order Traversal:", my_name_tree.pre_order_traversal())
+    print("Post Order Traversal:", my_name_tree.post_order_traversal())
+
