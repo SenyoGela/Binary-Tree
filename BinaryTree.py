@@ -76,3 +76,4 @@ class BinarySearchTreeNode:
 
 if __name__ == '__main__':
     my_name = ["G", "E", "L", "A", "M", "A", "R", "I", "C", "O", "N", "B", "S", "E", "N", "O"]
+    my_name_tree = build_tree(my_name)
